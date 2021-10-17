@@ -1,0 +1,16 @@
+{
+    "name": "template",
+    "scripts": {
+        "repro": "node index.js"
+    },
+    "workspaces": [
+        "package#1"
+    ],
+    "private": true,
+    "repository": "https://github.com/remorses/esbuild-plugins.git",
+    "author": "remorses <beats.by.morse@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "enhanced-resolve": "^5.8.3"
+    }
+}
